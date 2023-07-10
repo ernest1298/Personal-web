@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Body and Typography */
+/* styles.css */
+
+/* Body and Typography */
+body {
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+    zoom: 0.7;
+  }
+  #resumeContent {
+    display: none;
+  }
+
+ 
+
+
+  
+  /* Rest of the CSS styles... */
+  
+  
+  h1 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 200px;
+    
+  }
+  
+  h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 10px;
+    
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+    
+  }
+  
+  h4 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+   
+  }
+  
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  ul {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Header */
+  header {
+    background-color:rgb(44, 120, 120);
+    color: #fff;
+    
+    text-align: left;
+    height: 10px;
+    padding-bottom: 4%;
+  }
+  header img {
+    max-width: 500px;
+    height: 100%;
+    text-align: center;
+    
+  }
+  
+  /* Main Content */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+  overflow: auto;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Resume */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  section#picture {
+    text-align: center;
+  }
+  /* Picture */
+ /* styles.css */
+
+/* Rest of the CSS styles... */
+
+/* Picture */
+img {
+    display: inline-block;
+    max-width: 45%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: rgb(44, 120, 120);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
